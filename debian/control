@@ -1,0 +1,12 @@
+Source: ros-foxy-pmb2-gazebo
+Section: misc
+Priority: optional
+Maintainer: PAL Robotics <info@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-ament-lint-auto, ros-foxy-ament-lint-common, ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-pmb2-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-gazebo-plugins, ros-foxy-gazebo-ros, ros-foxy-launch-pal, ros-foxy-pal-gazebo-worlds, ros-foxy-pmb2-bringup, ros-foxy-pmb2-controller-configuration, ros-foxy-pmb2-description, ros-foxy-ros-workspace
+Description: Simulation files for the PMB2 robot.
