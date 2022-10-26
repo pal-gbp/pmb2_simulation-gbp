@@ -1,4 +1,4 @@
-# Copyright (c) 2021 PAL Robotics S.L.
+# Copyright (c) 2022 PAL Robotics S.L. All rights reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,16 +17,21 @@ from launch_pal.include_utils import include_launch_py_description
 
 
 def generate_launch_description():
+
+    pmb2_gazebo_launch = include_launch_py_description(
+        'pmb2_gazebo', ['launch', 'pmb2_gazebo.launch.py']
+    )
+
+    pmb2_nav_bringup_launch = include_launch_py_description(
+        'pmb2_2dnav', ['launch', 'pmb2_nav_bringup.launch.py'],
+        launch_arguments={
+            'slam': 'False'
+        }.items())
+
     # Create the launch description and populate
-    ld = LaunchDescription([
-        include_launch_py_description(
-            'pmb2_gazebo', ['launch', 'pmb2_gazebo.launch.py']
-        ),
-        include_launch_py_description(
-            'pmb2_2dnav', ['launch', 'pmb2_nav_bringup.launch.py'],
-            launch_arguments={
-                'slam': 'False'
-                }.items()),
-    ])
+    ld = LaunchDescription()
+
+    ld.add_action(pmb2_gazebo_launch)
+    ld.add_action(pmb2_nav_bringup_launch)
 
     return ld

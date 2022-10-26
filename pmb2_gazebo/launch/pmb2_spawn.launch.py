@@ -1,4 +1,4 @@
-# Copyright (c) 2021 PAL Robotics S.L.
+# Copyright (c) 2022 PAL Robotics S.L. All rights reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,9 +17,8 @@ from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
 from launch.substitutions import LaunchConfiguration
 
-from launch_ros.actions import Node
-
 from launch_pal.include_utils import include_launch_py_description
+from launch_ros.actions import Node
 
 
 def generate_launch_description():
@@ -45,9 +44,12 @@ def generate_launch_description():
                                    ],
                         output='screen')
 
-    return LaunchDescription([
-        #        declare_gz_pose,
-        declare_model_name,
-        pmb2_state_publisher,
-        spawn_entity,
-    ])
+    # Create the launch description and populate
+    ld = LaunchDescription()
+
+    # ld.add_action(declare_gz_pose)
+    ld.add_action(declare_model_name)
+    ld.add_action(pmb2_state_publisher)
+    ld.add_action(spawn_entity)
+
+    return ld

@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>pmb2_gazebo</name>
-  <version>3.0.2</version>
+  <version>3.0.3</version>
   <description>Simulation files for the PMB2 robot.</description>
-  <maintainer email="victor.lopez@pal-robotics.com">Victor Lopez</maintainer>
-  <maintainer email="info@pal-robotics.com">PAL Robotics</maintainer>
-  <maintainer email="tiago_support@pal-robotics.com">TIAGo support PAL Robotics</maintainer>
-  <license>Modified BSD</license>
+  <maintainer email="jordan.palacios@pal-robotics.com">Jordan Palacios</maintainer>
+  <maintainer email="noel.jimenez@pal-robotics.com">Noel Jimenez</maintainer>
+  <maintainer email="tiago-support@pal-robotics.com">TIAGo support PAL Robotics</maintainer>
+  <license>Apache License 2.0</license>
   <author email="victor.lopez@pal-robotics.com">Victor Lopez</author>
 
   <buildtool_depend>ament_cmake_auto</buildtool_depend>
@@ -15,10 +15,8 @@
   <exec_depend>pmb2_description</exec_depend>
   <exec_depend>pmb2_bringup</exec_depend>
   <exec_depend>gazebo_ros</exec_depend>
-  <exec_depend>gazebo_plugins</exec_depend>
   <exec_depend>gazebo_ros2_control</exec_depend>
   <exec_depend>pal_gazebo_worlds</exec_depend>
-  <exec_depend>pmb2_controller_configuration</exec_depend>
 
   <!-- Pending to be ported to ROS2 
   <exec_depend>simple_models_gazebo</exec_depend>
