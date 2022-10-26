@@ -1,0 +1,240 @@
+ros-humble-pmb2-simulation (3.0.3-1jammy) jammy; urgency=high
+
+  * Merge branch 'update_copyright' into 'humble-devel'
+    Update copyright and license
+    See merge request robots/pmb2_simulation!41
+  * update copyright and license
+  * Merge branch 'update_maintainers' into 'humble-devel'
+    update maintainers
+    See merge request robots/pmb2_simulation!40
+  * update maintainers
+  * Contributors: Jordan Palacios, Noel Jimenez
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Fri, 21 Oct 2022 00:00:00 -0000
+
+ros-humble-pmb2-simulation (3.0.2-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Tue, 19 Oct 2021 00:00:00 -0000
+
+ros-humble-pmb2-simulation (3.0.1-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Fri, 13 Aug 2021 00:00:00 -0000
+
+ros-humble-pmb2-simulation (3.0.0-1jammy) jammy; urgency=high
+
+  * Add ament and apply corrections
+  * Remove pmb2_controller_configuration_gazebo, use default one for gazebo
+    For now we can use the default one
+  * First gazebo launch with ROS2
+  * Contributors: Victor Lopez
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Tue, 20 Jul 2021 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.24-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Wed, 13 Jan 2021 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.23-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Thu, 30 Jul 2020 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.22-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Tue, 14 Apr 2020 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.21-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Fri, 03 Apr 2020 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.20-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Thu, 19 Mar 2020 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.19-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Tue, 22 Oct 2019 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.18-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Mon, 14 Oct 2019 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.17-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Thu, 10 Oct 2019 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.16-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Thu, 10 Oct 2019 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.15-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Thu, 10 Oct 2019 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.14-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Wed, 25 Sep 2019 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.13-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Mon, 23 Sep 2019 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.12-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Wed, 14 Aug 2019 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.11-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Thu, 01 Aug 2019 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.10-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Tue, 02 Jul 2019 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.9-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Mon, 17 Jun 2019 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.8-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Mon, 20 May 2019 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.7-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Fri, 01 Feb 2019 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.6-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Fri, 25 Jan 2019 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.5-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Wed, 23 Jan 2019 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.4-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Thu, 17 Jan 2019 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.3-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Wed, 19 Dec 2018 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.2-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Wed, 25 Jul 2018 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.1-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Tue, 17 Jul 2018 00:00:00 -0000
+
+ros-humble-pmb2-simulation (2.0.0-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Mon, 05 Feb 2018 00:00:00 -0000
+
+ros-humble-pmb2-simulation (1.0.1-1jammy) jammy; urgency=high
+
+  * add tiago_support as maintainer
+  * Contributors: Jordi Pages
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Tue, 28 Feb 2017 00:00:00 -0000
+
+ros-humble-pmb2-simulation (1.0.0-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Wed, 20 Apr 2016 00:00:00 -0000
+
+ros-humble-pmb2-simulation (0.9.7-1jammy) jammy; urgency=high
+
+  * Update simulation hardware abstraction dependence
+  * Contributors: Sam Pfeiffer
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Fri, 15 Apr 2016 00:00:00 -0000
+
+ros-humble-pmb2-simulation (0.9.6-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Tue, 09 Feb 2016 00:00:00 -0000
+
+ros-humble-pmb2-simulation (0.9.5-1jammy) jammy; urgency=high
+
+  * Update maintainer
+  * Contributors: Bence Magyar
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Tue, 27 Oct 2015 00:00:00 -0000
+
+ros-humble-pmb2-simulation (0.9.4-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Wed, 18 Feb 2015 00:00:00 -0000
+
+ros-humble-pmb2-simulation (0.9.3-1jammy) jammy; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Tue, 03 Feb 2015 00:00:00 -0000
+
+ros-humble-pmb2-simulation (0.9.2-1jammy) jammy; urgency=high
+
+  * Replace ant -> pmb2
+  * Rename files
+  * Contributors: Enrique Fernandez
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Mon, 02 Feb 2015 00:00:00 -0000
+
+
