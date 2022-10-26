@@ -1,0 +1,325 @@
+ros-humble-pmb2-gazebo (3.0.3-1bullseye) bullseye; urgency=high
+
+  * Merge branch 'add_missing_dep' into 'humble-devel'
+    add missing dependency
+    See merge request robots/pmb2_simulation!47
+  * add missing dependency
+  * Merge branch 'cleanup' into 'humble-devel'
+    Update package.xml deps
+    See merge request robots/pmb2_simulation!46
+  * update package.xml deps
+  * Merge branch 'refactor_launch_files' into 'humble-devel'
+    Refactor ld population
+    See merge request robots/pmb2_simulation!42
+  * refactor LaunchDescription population
+  * Merge branch 'update_copyright' into 'humble-devel'
+    Update copyright and license
+    See merge request robots/pmb2_simulation!41
+  * update copyright and license
+  * Merge branch 'update_maintainers' into 'humble-devel'
+    update maintainers
+    See merge request robots/pmb2_simulation!40
+  * update maintainers
+  * Merge branch 'run_tests' into 'humble-devel'
+    fix linter errors
+    See merge request robots/pmb2_simulation!39
+  * linters
+  * Contributors: Jordan Palacios, Noel Jimenez
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Fri, 21 Oct 2022 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (3.0.2-1bullseye) bullseye; urgency=high
+
+  * Add gazebo_ros2_control dependency
+  * Contributors: Victor Lopez
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Tue, 19 Oct 2021 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (3.0.1-1bullseye) bullseye; urgency=high
+
+  * Resolve missing dependency
+  * Merge branch 'foxy_obstacle_avoidance' into 'foxy-devel'
+    default world
+    See merge request robots/pmb2_simulation!33
+  * default world
+  * Contributors: Noel Jimenez Garcia, Victor Lopez, victor
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Fri, 13 Aug 2021 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (3.0.0-1bullseye) bullseye; urgency=high
+
+  * Cleanup old launch files
+  * Correct python launch file
+  * Add ament and apply corrections
+  * Cleanup
+  * Cleanup pmb2_gazebo spawn
+  * Path fixes for gazebo
+  * First gazebo launch with ROS2
+  * Contributors: Victor Lopez
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Tue, 20 Jul 2021 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.24-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Wed, 13 Jan 2021 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.23-1bullseye) bullseye; urgency=high
+
+  * Merge branch 'rename_tf_prefix' into 'erbium-devel'
+    Rename tf_prefix to robot_namespace
+    See merge request robots/pmb2_simulation!30
+  * Rename tf_prefix to robot_namespace
+  * Contributors: davidfernandez, victor
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Thu, 30 Jul 2020 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.22-1bullseye) bullseye; urgency=high
+
+  * Merge branch 'add-more-gz-args' into 'erbium-devel'
+    Add more gz args to use other worlds or models
+    See merge request robots/pmb2_simulation!29
+  * Add more gz args to use other worlds or models
+  * Contributors: Victor Lopez, victor
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Tue, 14 Apr 2020 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.21-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Fri, 03 Apr 2020 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.20-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Thu, 19 Mar 2020 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.19-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Tue, 22 Oct 2019 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.18-1bullseye) bullseye; urgency=high
+
+  * Merge branch 'refactoring' into 'erbium-devel'
+    removed public launches in favor of using public_sim flag
+    See merge request robots/pmb2_simulation!23
+  * removed joystick teleop
+  * Contributors: Procópio Stein, Victor Lopez
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Mon, 14 Oct 2019 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.17-1bullseye) bullseye; urgency=high
+
+  * Merge branch 'remove-sonar-cloud' into 'erbium-devel'
+    remove sonar cloud
+    See merge request robots/pmb2_simulation!21
+  * remove sonar cloud
+  * Contributors: Procópio Stein, Victor Lopez
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Thu, 10 Oct 2019 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.16-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Thu, 10 Oct 2019 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.15-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Thu, 10 Oct 2019 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.14-1bullseye) bullseye; urgency=high
+
+  * Merge branch 'remove-speed-limit' into 'erbium-devel'
+    removed speed limit
+    See merge request robots/pmb2_simulation!20
+  * removed remap of twist_mux topic
+  * removed speed limit
+  * Contributors: Procópio Stein, Victor Lopez
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Wed, 25 Sep 2019 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.13-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Mon, 23 Sep 2019 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.12-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Wed, 14 Aug 2019 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.11-1bullseye) bullseye; urgency=high
+
+  * Merge branch 'multi_pmb2' into 'erbium-devel'
+    Changes for multi pmb2 simulation
+    See merge request robots/pmb2_simulation!17
+  * Fix parameters in multi pmb2 simulation
+  * Changes for multi pmb2 simulation
+  * Contributors: Adria Roig, Victor Lopez
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Thu, 01 Aug 2019 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.10-1bullseye) bullseye; urgency=high
+
+  * Merge branch 'simple_sim' into 'erbium-devel'
+    Add simple pmb2 model in launch files
+    See merge request robots/pmb2_simulation!16
+  * Missing simple_models_gazebo depend
+  * Add simple pmb2 model in launch files
+  * Contributors: Adria Roig, Victor Lopez
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Tue, 02 Jul 2019 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.9-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Mon, 17 Jun 2019 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.8-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Mon, 20 May 2019 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.7-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Fri, 01 Feb 2019 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.6-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Fri, 25 Jan 2019 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.5-1bullseye) bullseye; urgency=high
+
+  * Merge branch 'args_fix' into 'erbium-devel'
+    fix for unused arg exception with pass_all_args
+    See merge request robots/pmb2_simulation!11
+  * fix for unused arg exception with pass_all_args
+  * Contributors: Sai Kishor Kothakota, Victor Lopez
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Wed, 23 Jan 2019 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.4-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Thu, 17 Jan 2019 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.3-1bullseye) bullseye; urgency=high
+
+  * Merge branch 'specifics-refactor' into 'erbium-devel'
+    Change robot for laser_model
+    See merge request robots/pmb2_simulation!9
+  * Add and pass all arguments
+  * Remove unused argument
+  * Change robot for laser_model
+  * Contributors: Victor Lopez
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Wed, 19 Dec 2018 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.2-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Wed, 25 Jul 2018 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.1-1bullseye) bullseye; urgency=high
+
+  * Add recording arguments
+  * Merge branch 'prevent-upload-warning' into 'erbium-devel'
+    prevent calling deprecated launch file
+    See merge request robots/pmb2_simulation!7
+  * prevent calling deprecated launch file
+  * Contributors: Hilario Tome, Jordi Pages, Victor Lopez
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Tue, 17 Jul 2018 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (2.0.0-1bullseye) bullseye; urgency=high
+
+  * Use pal_gazebo_worlds
+  * tmp addition of 'pal_robot_info' in spawn launch
+  * Contributors: Jeremie Deray, Victor Lopez
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Mon, 05 Feb 2018 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (1.0.1-1bullseye) bullseye; urgency=high
+
+  * refs #14797. Add public_sim argument
+  * add tiago_support as maintainer
+  * Contributors: Jordi Pages
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Tue, 28 Feb 2017 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (1.0.0-1bullseye) bullseye; urgency=high
+
+  * Add missing gazebo_plugins dependency
+  * Contributors: Victor Lopez
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Wed, 20 Apr 2016 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (0.9.7-1bullseye) bullseye; urgency=high
+
+  * Update simulation hardware abstraction dependence
+  * rm ususless launch
+  * rm sim dock launch as it doesn,t exist yet
+  * Contributors: Jeremie Deray, Sam Pfeiffer
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Fri, 15 Apr 2016 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (0.9.6-1bullseye) bullseye; urgency=high
+
+  * use robot default
+  * removed worlds that should be there!
+  * Contributors: Jeremie Deray
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Tue, 09 Feb 2016 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (0.9.5-1bullseye) bullseye; urgency=high
+
+  * Don't install deleted file
+  * Remove dependency of removed package
+  * Remove scripts
+  * Update maintainer
+  * Remove sensors script reference
+  * Contributors: Bence Magyar
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Tue, 27 Oct 2015 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (0.9.4-1bullseye) bullseye; urgency=high
+
+  * Make rgbd camera fixed
+  * Use full robot by default
+  * Contributors: Enrique Fernandez
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Wed, 18 Feb 2015 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (0.9.3-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Tue, 03 Feb 2015 00:00:00 -0000
+
+ros-humble-pmb2-gazebo (0.9.2-1bullseye) bullseye; urgency=high
+
+  * Replace ant -> pmb2
+  * Rename files
+  * Contributors: Enrique Fernandez
+
+ -- Jordan Palacios <jordan.palacios@pal-robotics.com>  Mon, 02 Feb 2015 00:00:00 -0000
+
+
