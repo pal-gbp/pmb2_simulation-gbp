@@ -1,0 +1,12 @@
+Source: ros-humble-pmb2-2dnav-gazebo
+Section: misc
+Priority: optional
+Maintainer: Jordan Palacios <jordan.palacios@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-auto, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-pmb2-2dnav-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-launch-pal, ros-humble-pmb2-2dnav, ros-humble-pmb2-gazebo, ros-humble-ros-workspace
+Description: PMB2-specific launch files needed to run navigation on the PMB2 robot.
